@@ -6,7 +6,9 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    padding: 0 200px;
+    padding-left:  200px;
+    padding-right: 200px;
+    padding-top: 20px;    
     justify-content: space-between;
 }
 
@@ -93,5 +95,78 @@ p {
     background-color: #e5e7eb;
     padding: 0 200px;
     text-align: center;
+   
+}
+.this {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    margin-bottom:0px;
+}
+
+.thor {
+    margin-top: 0;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.random p {
+    color: black;
+}
+
+.beef {
+    padding: 50px 200px;
+}
+
+.blue {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.text2 {
+    padding: 50px;
+}
+
+.secs {
+    background-color: #3882f6;
+    border-style: solid;
+    height: fit-content;
+    border-color: white;
+    border-radius: 8px;
+    padding: 5px 30px;
+}
+
+.btxt{
+    font-weight: 900;
+    margin-bottom:0px;
+
+}
+
+.btxt2 {
+    margin-top: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+
+}
+
+.ftxt {
     
 }
